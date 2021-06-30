@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.drewchaseproject.mc.fabric.SilkTouchSpawners.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LivingEntityMixin",
+    "BlockItemMixin",
+    "SpawnerBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

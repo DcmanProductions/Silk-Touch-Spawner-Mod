@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "silktouch_spawners",
+  "version": "${version}",
+  "name": "SilkTouch Spawners",
+  "description": "A more performance orented version of Shroototems SilkTouch Spawner Datapack",
+  "authors": [
+    "Drew Chase"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/silktouch_spawners/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.drewchaseproject.mc.fabric.SilkTouchSpawners.SilkTouchSpawners"
+    ]
+  },
+  "mixins": [
+    "silktouch_spawners.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": [
+      "1.16.x"
+    ]
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

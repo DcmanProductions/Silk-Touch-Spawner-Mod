@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "oio",
+      "iei",
+      "oio"
+    ],
+    "key": {
+      "i": {
+        "item": "minecraft:iron_bars"
+      },
+      "e": {
+        "item": "minecraft:pig_spawn_egg"
+      },
+      "o": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "minecraft:spawner",
+      "count": 1
+    }
+  }
